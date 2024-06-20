@@ -1,0 +1,78 @@
+[20-Jun-2024 00:30:02 UTC] PHP Fatal error:  Uncaught ArgumentCountError: filemtime() expects exactly 1 argument, 2 given in C:\Users\USER\Local Sites\demolocal\app\public\wp-content\themes\Atila\functions.php:13
+Stack trace:
+#0 C:\Users\USER\Local Sites\demolocal\app\public\wp-content\themes\Atila\functions.php(13): filemtime('C:\\Users\\USER\\L...', 'all')
+#1 C:\Users\USER\Local Sites\demolocal\app\public\wp-includes\class-wp-hook.php(324): atila_enqueue_scripts('')
+#2 C:\Users\USER\Local Sites\demolocal\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 C:\Users\USER\Local Sites\demolocal\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\Users\USER\Local Sites\demolocal\app\public\wp-includes\script-loader.php(2265): do_action('wp_enqueue_scri...')
+#5 C:\Users\USER\Local Sites\demolocal\app\public\wp-includes\class-wp-hook.php(324): wp_enqueue_scripts('')
+#6 C:\Users\USER\Local Sites\demolocal\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 C:\Users\USER\Local Sites\demolocal\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\Users\USER\Local Sites\demolocal\app\public\wp-includes\general-template.php(3050): do_action('wp_head')
+#9 C:\Users\USER\Local Sites\demolocal\app\public\wp-content\themes\Atila\header.php(15): wp_head()
+#10 C:\Users\USER\Local Sites\demolocal\app\public\wp-includes\template.php(810): require_once('C:\\Users\\USER\\L...')
+#11 C:\Users\USER\Local Sites\demolocal\app\public\wp-includes\template.php(745): load_template('C:\\Users\\USER\\L...', true, Array)
+#12 C:\Users\USER\Local Sites\demolocal\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#13 C:\Users\USER\Local Sites\demolocal\app\public\wp-content\themes\Atila\index.php(9): get_header()
+#14 C:\Users\USER\Local Sites\demolocal\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\USER\\L...')
+#15 C:\Users\USER\Local Sites\demolocal\app\public\wp-blog-header.php(19): require_once('C:\\Users\\USER\\L...')
+#16 C:\Users\USER\Local Sites\demolocal\app\public\index.php(17): require('C:\\Users\\USER\\L...')
+#17 {main}
+  thrown in C:\Users\USER\Local Sites\demolocal\app\public\wp-content\themes\Atila\functions.php on line 13
+[20-Jun-2024 00:34:26 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\Users\USER\Local Sites\demolocal\app\public\wp-includes\update.php on line 211
+[20-Jun-2024 00:34:26 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\Users\USER\Local Sites\demolocal\app\public\wp-includes\update.php on line 449
+[20-Jun-2024 00:34:27 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\Users\USER\Local Sites\demolocal\app\public\wp-includes\update.php on line 730
+[20-Jun-2024 00:35:42 UTC] PHP Fatal error:  Uncaught ArgumentCountError: filemtime() expects exactly 1 argument, 2 given in C:\Users\USER\Local Sites\demolocal\app\public\wp-content\themes\Atila\functions.php:13
+Stack trace:
+#0 C:\Users\USER\Local Sites\demolocal\app\public\wp-content\themes\Atila\functions.php(13): filemtime('C:\\Users\\USER\\L...', 'all')
+#1 C:\Users\USER\Local Sites\demolocal\app\public\wp-includes\class-wp-hook.php(324): atila_enqueue_scripts('')
+#2 C:\Users\USER\Local Sites\demolocal\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 C:\Users\USER\Local Sites\demolocal\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\Users\USER\Local Sites\demolocal\app\public\wp-includes\script-loader.php(2265): do_action('wp_enqueue_scri...')
+#5 C:\Users\USER\Local Sites\demolocal\app\public\wp-includes\class-wp-hook.php(324): wp_enqueue_scripts('')
+#6 C:\Users\USER\Local Sites\demolocal\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 C:\Users\USER\Local Sites\demolocal\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\Users\USER\Local Sites\demolocal\app\public\wp-includes\general-template.php(3050): do_action('wp_head')
+#9 C:\Users\USER\Local Sites\demolocal\app\public\wp-content\themes\Atila\header.php(15): wp_head()
+#10 C:\Users\USER\Local Sites\demolocal\app\public\wp-includes\template.php(810): require_once('C:\\Users\\USER\\L...')
+#11 C:\Users\USER\Local Sites\demolocal\app\public\wp-includes\template.php(745): load_template('C:\\Users\\USER\\L...', true, Array)
+#12 C:\Users\USER\Local Sites\demolocal\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#13 C:\Users\USER\Local Sites\demolocal\app\public\wp-content\themes\Atila\index.php(9): get_header()
+#14 C:\Users\USER\Local Sites\demolocal\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\USER\\L...')
+#15 C:\Users\USER\Local Sites\demolocal\app\public\wp-blog-header.php(19): require_once('C:\\Users\\USER\\L...')
+#16 C:\Users\USER\Local Sites\demolocal\app\public\index.php(17): require('C:\\Users\\USER\\L...')
+#17 {main}
+  thrown in C:\Users\USER\Local Sites\demolocal\app\public\wp-content\themes\Atila\functions.php on line 13
+[20-Jun-2024 00:46:19 UTC] PHP Parse error:  syntax error, unexpected token ")" in C:\Users\USER\Local Sites\demolocal\app\public\wp-content\themes\Atila\functions.php on line 16
+[20-Jun-2024 00:46:19 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\USER\Local Sites\demolocal\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 367
+[20-Jun-2024 00:46:19 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\USER\Local Sites\demolocal\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 368
+[20-Jun-2024 00:46:22 UTC] PHP Parse error:  syntax error, unexpected token ")" in C:\Users\USER\Local Sites\demolocal\app\public\wp-content\themes\Atila\functions.php on line 16
+[20-Jun-2024 00:52:43 UTC] PHP Parse error:  syntax error, unexpected token ";", expecting ")" in C:\Users\USER\Local Sites\demolocal\app\public\wp-content\themes\Atila\functions.php on line 9
+[20-Jun-2024 00:53:12 UTC] PHP Parse error:  syntax error, unexpected token ";", expecting ")" in C:\Users\USER\Local Sites\demolocal\app\public\wp-content\themes\Atila\functions.php on line 9
+[20-Jun-2024 00:54:15 UTC] PHP Parse error:  Unclosed '{' on line 13 does not match ')' in C:\Users\USER\Local Sites\demolocal\app\public\wp-content\themes\Atila\functions.php on line 17
+[20-Jun-2024 00:54:18 UTC] PHP Parse error:  Unclosed '{' on line 13 does not match ')' in C:\Users\USER\Local Sites\demolocal\app\public\wp-content\themes\Atila\functions.php on line 17
+[20-Jun-2024 00:55:07 UTC] PHP Parse error:  Unclosed '{' on line 13 does not match ')' in C:\Users\USER\Local Sites\demolocal\app\public\wp-content\themes\Atila\functions.php on line 17
+[20-Jun-2024 01:01:50 UTC] PHP Fatal error:  Uncaught ArgumentCountError: filemtime() expects exactly 1 argument, 2 given in C:\Users\USER\Local Sites\demolocal\app\public\wp-content\themes\Atila\functions.php:17
+Stack trace:
+#0 C:\Users\USER\Local Sites\demolocal\app\public\wp-content\themes\Atila\functions.php(17): filemtime('C:\\Users\\USER\\L...', 'all')
+#1 C:\Users\USER\Local Sites\demolocal\app\public\wp-includes\class-wp-hook.php(324): atila_enqueue_scripts('')
+#2 C:\Users\USER\Local Sites\demolocal\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 C:\Users\USER\Local Sites\demolocal\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\Users\USER\Local Sites\demolocal\app\public\wp-includes\script-loader.php(2265): do_action('wp_enqueue_scri...')
+#5 C:\Users\USER\Local Sites\demolocal\app\public\wp-includes\class-wp-hook.php(324): wp_enqueue_scripts('')
+#6 C:\Users\USER\Local Sites\demolocal\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 C:\Users\USER\Local Sites\demolocal\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\Users\USER\Local Sites\demolocal\app\public\wp-includes\general-template.php(3050): do_action('wp_head')
+#9 C:\Users\USER\Local Sites\demolocal\app\public\wp-content\themes\Atila\header.php(15): wp_head()
+#10 C:\Users\USER\Local Sites\demolocal\app\public\wp-includes\template.php(810): require_once('C:\\Users\\USER\\L...')
+#11 C:\Users\USER\Local Sites\demolocal\app\public\wp-includes\template.php(745): load_template('C:\\Users\\USER\\L...', true, Array)
+#12 C:\Users\USER\Local Sites\demolocal\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#13 C:\Users\USER\Local Sites\demolocal\app\public\wp-content\themes\Atila\index.php(9): get_header()
+#14 C:\Users\USER\Local Sites\demolocal\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\USER\\L...')
+#15 C:\Users\USER\Local Sites\demolocal\app\public\wp-blog-header.php(19): require_once('C:\\Users\\USER\\L...')
+#16 C:\Users\USER\Local Sites\demolocal\app\public\index.php(17): require('C:\\Users\\USER\\L...')
+#17 {main}
+  thrown in C:\Users\USER\Local Sites\demolocal\app\public\wp-content\themes\Atila\functions.php on line 17
+[20-Jun-2024 01:04:04 UTC] PHP Parse error:  syntax error, unexpected token ";", expecting ")" in C:\Users\USER\Local Sites\demolocal\app\public\wp-content\themes\Atila\functions.php on line 17
+[20-Jun-2024 01:04:19 UTC] PHP Parse error:  syntax error, unexpected token ";", expecting ")" in C:\Users\USER\Local Sites\demolocal\app\public\wp-content\themes\Atila\functions.php on line 17
+[20-Jun-2024 01:06:19 UTC] PHP Parse error:  syntax error, unexpected token ";", expecting ")" in C:\Users\USER\Local Sites\demolocal\app\public\wp-content\themes\Atila\functions.php on line 17
