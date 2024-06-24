@@ -13,11 +13,17 @@
 function atila_enqueue_scripts(){
     
   //registering the styles and scripts
+  //register styles
    wp_register_style( 'style-css',  get_stylesheet_uri(), [], filemtime( get_template_directory() . '/style.css'), 'all');
+  
+  //register scripts
    wp_register_script('main-js',get_template_directory_uri(). '/assets/main.js', [],filemtime( get_template_directory() . '/assets/main.js'), true );
 
-   //enqueindg the style and scripts
+   //enqueing the style and scripts
+   //enqueing styles
    wp_enqueue_style( 'style-css');
+
+   //enqueing scripts
    wp_enqueue_script('main-js');
 
 
