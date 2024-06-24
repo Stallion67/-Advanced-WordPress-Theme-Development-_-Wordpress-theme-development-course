@@ -14,7 +14,9 @@
     
     <?php wp_head();?>
 </head>
-<body <?php body_class('test-class');?>>
+<body 
+<?php body_class('test-class');?>>
+   <!-- checking for backward compatability if function exist -->
     <?php wp_body_open(); ?>
 
     <header>Header</header>

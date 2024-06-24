@@ -1,1 +1,4 @@
-console.warn('hello People');
+/** main.js
+ * console.warn('hello People');
+ * /
+ */
