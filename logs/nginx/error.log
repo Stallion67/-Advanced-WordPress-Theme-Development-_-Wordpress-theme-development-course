@@ -1,3 +1,6 @@
 2024/06/13 15:25:39 [alert] 16260#17388: the event "ngx_master_16260" was not signaled for 5s
 2024/06/13 15:47:15 [alert] 12684#16876: OpenEvent("ngx_master_12472") failed (2: The system cannot find the file specified)
 2024/06/13 16:19:49 [alert] 17840#6496: OpenEvent("ngx_master_10044") failed (2: The system cannot find the file specified)
+2024/06/19 23:08:37 [error] 18736#19316: *296 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while reading response header from upstream, client: 127.0.0.1, server: , request: "POST /wp-admin/admin-ajax.php HTTP/1.0", upstream: "fastcgi://127.0.0.1:10003", host: "demolocal.local", referrer: "http://demolocal.local/wp-admin/themes.php?theme=Atila"
+2024/06/20 07:12:16 [alert] 6448#20232: the event "ngx_master_6448" was not signaled for 5s
+2024/06/20 07:12:16 [alert] 6448#20232: could not respawn worker
